@@ -1,0 +1,11 @@
+alias: Send Baterie to MQTT
+description: ""
+triggers:
+  - entity_id: sensor.batteries_state_of_capacity
+    trigger: state
+actions:
+  - data:
+      topic: panouri/baterie
+      payload: "{{ states('sensor.batteries_state_of_capacity') }}"
+    action: mqtt.publish
+mode: single
