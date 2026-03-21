@@ -16,30 +16,11 @@ ESP32 DEV  reset intre GPIO 14 si GND
 
 ESP32 LOLIN D32  reset intre GPIO 14 si GND 
 
-update se face prin lan (http://xxx.xxx.xxx.xxx). Creati o automatizare in HA "5_MQTT.yaml" in care introduceti senzori
+update se face prin lan (http://xxx.xxx.xxx.xxx).
+Creati o automatizare in HA "5_MQTT.yaml" in care introduceti senzori
 
+  sensor.batteries_state_of_capacity #   senzor baterie        HUAWEY SUN 2000 
+  sensor.power_meter_active_power    #   senzor import/export  HUAWEY SUN 2000 
 
-[5_MQTT.yaml](https://github.com/user-attachments/files/26161830/5_MQTT.yaml)
-alias: 5_MQTT Dynamic POWERCALC
-description: ""
-triggers:
-  - entity_id:
-      - sensor.batteries_state_of_capacity #   senzor baterie 
-      - sensor.power_meter_active_power    #   senzor import/export
-      - sensor.powercalc_online
-    trigger: state
-actions:
-  - data:
-      topic: |
-        {% if trigger.entity_id == 'sensor.batteries_state_of_capacity' %} #   senzor baterie 
-          panouri/baterie
-        {% elif trigger.entity_id == 'sensor.power_meter_active_power' %}  #   senzor import/export
-          panouri/export
-        {% elif trigger.entity_id == 'sensor.powercalc_online' %}
-          online/{{ trigger.to_state.object_id }}
-        {% else %}
-          unknown
-        {% endif %}
-      payload: "{{ trigger.to_state.state }}"
-    action: mqtt.publish
-mode: single
+aveti si cele 4 automatizari pentru  comfigurarea dispozitivelor (AC,BOILER,RADIATOR,...)
+1AC_control.yaml   2AC_control.yaml  3AC_control.yaml  4AC_control.yaml  in care modificati dispozitivele (climate.ac_NUMARU_unu,  climate.ac_NUMARU_doi, climate.ac_NUMARU_trei,  climate.ac_NUMARU_patru, )
