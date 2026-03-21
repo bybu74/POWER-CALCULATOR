@@ -27,6 +27,7 @@ aveti si cele 4 automatizari pentru  comfigurarea dispozitivelor (AC,BOILER,RADI
 1AC_control.yaml   2AC_control.yaml  3AC_control.yaml  4AC_control.yaml  in care modificati dispozitivele (climate.ac_NUMARU_unu,  climate.ac_NUMARU_doi, climate.ac_NUMARU_trei,  climate.ac_NUMARU_patru, )
 
 dupa softarea  ESP configuratil .Va conectati la BYterm apoi in browser http://192.168.4.1 sau scanati cu camera  QRcode  1 apoi 2 si configurati WIFI, MQTT, NUME,ADRESA HA.
+![original](https://github.com/user-attachments/assets/00b17f89-6d7c-47e4-bd19-9b8b13903e2f)
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ATENTIE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 DACA SCHIMBATI NUMELE DISPOZITIVULUI DIN  POWERcalc  in NUMExyzzzz  schimbati in toate cele 5 automatizari  
