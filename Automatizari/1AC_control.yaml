@@ -1,0 +1,60 @@
+alias: 1AC control complet (cald + rece + off)
+description: ""
+triggers:
+  - entity_id: sensor.powercalc_ac1
+    from: "ON"
+    to: "OFF"
+    id: ac1_off
+    trigger: state
+  - entity_id: sensor.powercalc_ac1
+    from: "OFF"
+    to: "ON"
+    id: ac1_on
+    trigger: state
+conditions: []
+actions:
+  - choose:
+      - conditions:
+          - condition: trigger
+            id: ac1_off
+        sequence:
+          - target:
+              entity_id: climate.ac_NUMARU_unu
+            action: climate.turn_off
+      - conditions:
+          - condition: trigger
+            id: ac1_on
+          - condition: state
+            entity_id: switch.powercalc_rece_cald
+            state: "on"
+        sequence:
+          - target:
+              entity_id: climate.ac_NUMARU_unu
+            data:
+              hvac_mode: heat
+            action: climate.set_hvac_mode
+          - target:
+              entity_id: climate.ac_NUMARU_unu
+            data:
+              temperature: 27
+              hvac_mode: heat
+            action: climate.set_temperature
+      - conditions:
+          - condition: trigger
+            id: ac1_on
+          - condition: state
+            entity_id: switch.powercalc_rece_cald
+            state: "off"
+        sequence:
+          - target:
+              entity_id: climate.ac_NUMARU_unu
+            data:
+              hvac_mode: cool
+            action: climate.set_hvac_mode
+          - target:
+              entity_id: climate.ac_NUMARU_unu
+            data:
+              temperature: 23
+              hvac_mode: cool
+            action: climate.set_temperature
+mode: single
