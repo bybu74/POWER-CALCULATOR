@@ -16,3 +16,4 @@ ESP32 DEV  reset intre GPIO 14 si GND
 
 ESP32 LOLIN D32  reset intre GPIO 14 si GND 
 
+update se face prin lan (http://xxx.xxx.xxx.xxx)
