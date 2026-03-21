@@ -5,6 +5,9 @@ tot sistemul este folosit pentru maximalizarea autocosumului din panourile solar
 
 Pentru prima instalare folositi utilitarul flash_download_tool pe care il descarcati de aici https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html
 <img width="674" height="541" alt="flash_esp32" src="https://github.com/user-attachments/assets/458f250c-1548-4406-964c-f5f4e9f2a034" />
+
+
+
 aveti ,bin pentru 3 modele de ESP 32
 ESP32C   reset intre GPIO 03 si GND  
 ESP32 DEV  reset intre GPIO 14 si GND 
