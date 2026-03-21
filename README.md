@@ -41,4 +41,8 @@ switch.powercalc_rece_cald in switch.numexyzzzz_rece_cald
 sensor.powercalc_online   in  sensor.numexyzzzz_online
 
 <img width="445" height="457" alt="1" src="https://github.com/user-attachments/assets/2e08e96e-c2fe-4f3e-8bbb-f317c0da70a5" />
-DACA ESTE DE FOLOS SUSTINE PROIECTUL     https://www.buymeacoffee.com/invite/bybu74
+
+
+
+
+DACA ESTE DE FOLOS SUSTINE PROIECTUL     [https://www.buymeacoffee.com/invite/bybu74](https://buymeacoffee.com/bybu74)
