@@ -19,8 +19,9 @@ ESP32 LOLIN D32  reset intre GPIO 14 si GND
 update se face prin lan (http://xxx.xxx.xxx.xxx).
 Creati o automatizare in HA "5_MQTT.yaml" in care introduceti senzori
 
-  sensor.batteries_state_of_capacity #   senzor baterie        HUAWEY SUN 2000 
-  sensor.power_meter_active_power    #   senzor import/export  HUAWEY SUN 2000 
+sensor.batteries_state_of_capacity #   senzor baterie        HUAWEY SUN 2000 
+
+sensor.power_meter_active_power    #   senzor import/export  HUAWEY SUN 2000 
 
 aveti si cele 4 automatizari pentru  comfigurarea dispozitivelor (AC,BOILER,RADIATOR,...)
 1AC_control.yaml   2AC_control.yaml  3AC_control.yaml  4AC_control.yaml  in care modificati dispozitivele (climate.ac_NUMARU_unu,  climate.ac_NUMARU_doi, climate.ac_NUMARU_trei,  climate.ac_NUMARU_patru, )
