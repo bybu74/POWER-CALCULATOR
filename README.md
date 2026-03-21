@@ -1,5 +1,5 @@
-POWER-CALCULATOR  este un soft  care calculeaza in functie de export energie electrica sau procentul de incarcare. Softul este instalat pe un ESP32 si ruleaza impreuna cu HOME ASSISTANT si foloseste protocolul MQTT
-tot sistemul este folosit pentru maximalizarea autocosumului din panourile solare proprii. dispozitivul poate comanda  aparate de climatizare, boiler ,sau ori ce alt consumator de energie electrica integrat in HOME ASSISTANT. 
+POWER-CALCULATOR  este un soft  care calculeaza in functie de export energie electrica sau procentul de incarcare. Softul este instalat pe un ESP32 si ruleaza impreuna cu HOME ASSISTANT folosind protocolul MQTT
+Tot sistemul este folosit pentru maximalizarea autocosumului din panourile solare proprii. Dispozitivul poate comanda  aparate de climatizare, boiler ,sau ori ce alt consumator de energie electrica integrat in HOME ASSISTANT pentru consumul controlat al energiei electrice generat de sistemul solar. 
 
 <img width="797" height="848" alt="Screenshot 2026-03-21 215044" src="https://github.com/user-attachments/assets/987ab3fa-056a-41d8-9fdd-51dc5c0f460c" />
 
