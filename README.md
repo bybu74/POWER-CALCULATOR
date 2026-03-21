@@ -28,8 +28,9 @@ aveti si cele 4 automatizari pentru  comfigurarea dispozitivelor (AC,BOILER,RADI
 
 dupa softarea  ESP configuratil .Va conectati la BYterm apoi in browser http://192.168.4.1 sau scanati cu camera  QRcode  1 apoi 2 si configurati WIFI, MQTT, NUME,ADRESA HA.
 ![original](https://github.com/user-attachments/assets/00b17f89-6d7c-47e4-bd19-9b8b13903e2f)
-<img width="213" height="423" alt="seting" src="https://github.com/user-attachments/assets/f262520f-a0a5-4178-8140-eaefb264d0bf" />
 
+
+<img width="213" height="423" alt="seting" src="https://github.com/user-attachments/assets/f262520f-a0a5-4178-8140-eaefb264d0bf" />
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ATENTIE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 DACA SCHIMBATI NUMELE DISPOZITIVULUI DIN  POWERcalc  in NUMExyzzzz  schimbati in toate cele 5 automatizari  
 
