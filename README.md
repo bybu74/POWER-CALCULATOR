@@ -9,6 +9,10 @@ Pentru prima instalare folositi utilitarul flash_download_tool pe care il descar
 
 
 aveti ,bin pentru 3 modele de ESP 32
-ESP32C   reset intre GPIO 03 si GND  
-ESP32 DEV  reset intre GPIO 14 si GND 
+
+ESP32C   reset intre GPIO 03 si GND 
+
+ESP32 DEV  reset intre GPIO 14 si GND
+
 ESP32 LOLIN D32  reset intre GPIO 14 si GND 
+
