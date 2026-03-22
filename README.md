@@ -1,14 +1,14 @@
-POWER-CALCULATOR  este un soft  care calculeaza in functie de export energie electrica sau procentul de incarcare. Softul este instalat pe un ESP32 si ruleaza impreuna cu HOME ASSISTANT folosind protocolul MQTT
-Tot sistemul este folosit pentru maximalizarea autocosumului din panourile solare proprii. Dispozitivul poate comanda  aparate de climatizare, boiler ,sau ori ce alt consumator de energie electrica integrat in HOME ASSISTANT pentru consumul controlat al energiei electrice generat de sistemul solar. 
+POWER-CALCULATOR  este un soft  care calculeaza in functie de export,energie electrica sau procentul de incarcare. Soft-ul este instalat pe un ESP32 si ruleaza impreuna cu HOME ASSISTANT folosind protocolul MQTT.
+Tot sistemul este folosit pentru maximalizarea autocosumului din panourile solare proprii. Dispozitivul poate comanda  aparate de climatizare, boiler ,sau orice alt consumator de energie electrica integrat in HOME ASSISTANT pentru consumul controlat al energiei electrice generat de sistemul solar. 
 
 <img width="797" height="848" alt="Screenshot 2026-03-21 215044" src="https://github.com/user-attachments/assets/987ab3fa-056a-41d8-9fdd-51dc5c0f460c" />
 
-Pentru prima instalare folositi utilitarul flash_download_tool pe care il descarcati de aici https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html
+Pentru prima instalare folositi utilitarul flash_download_tool ,pe care il descarcati de aici: https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html
 <img width="674" height="541" alt="flash_esp32" src="https://github.com/user-attachments/assets/458f250c-1548-4406-964c-f5f4e9f2a034" />
 
 
 
-aveti ,bin pentru 3 modele de ESP 32 
+Aveti ,bin pentru 3 modele de ESP 32 
 
 ESP32C   RESET intre GPIO 03 si GND  
 
@@ -20,7 +20,7 @@ RESET= buton pentru reset/restart/reconfigurare
 update se face prin lan (http://xxx.xxx.xxx.xxx).
 <img width="453" height="530" alt="update_http" src="https://github.com/user-attachments/assets/e6a40e67-ee82-417f-a572-4ceb4900738a" />
 
-Creati o automatizare in HA "5_MQTT.yaml" in care introduceti senzori
+Creati o automatizare in HA "5_MQTT.yaml" in care introduceti senzorii
 
 sensor.batteries_state_of_capacity #   senzor baterie        HUAWEY SUN 2000 
 
