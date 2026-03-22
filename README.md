@@ -88,8 +88,12 @@ sensor.powercalc_online   in  sensor.numexyzzzz_online
 <img width="445" height="457" alt="1" src="https://github.com/user-attachments/assets/2e08e96e-c2fe-4f3e-8bbb-f317c0da70a5" />
 
 
-
+Proiectul se foloseste doar in scop personal,nu comercial!
 
 
 DACA ESTE DE FOLOS,SUSTINE PROIECTUL:
 [BUY ME A COFFEE](https://buymeacoffee.com/bybu74)
+
+
+
+
