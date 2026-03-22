@@ -14,13 +14,10 @@ EXPORT / BATTERY =The calculation is performed based on either energy exported t
 DEVICE START TIME = The time period during which the export value exceeds  Cx MAX DEVICE CONSUMPTION + Cx POSITIVE DIFFERENCE this condition triggers the start of consumer Cx.
 
 DEVICE STOP TIME The time period during which the export value is below the value Cx NEGATIVE DIFFERENCE This condition stops consumer Cx.
-COOL / HEAT =General configuration for air conditioning mode:
 
-COOL
-HEAT
-DEVICE ORDER
+COOL/HEAT =General configuration for air conditioning mode: COOL ,HEAT
 
-Defines the startup order of the devices.
+DEVICE ORDER =Defines the startup order of the devices.
 
 Examples:
 
@@ -31,21 +28,13 @@ C2 > C3 > C1 > C4
 
 All 24 possible combinations are supported.
 
-Cx MAX DEVICE CONSUMPTION
+Cx MAX DEVICE CONSUMPTION=Maximum power consumption of the device.
 
-Maximum power consumption of the device.
+Cx ACTIVE ON/OFF=Enables or disables the device in the calculation system.
 
-Cx ACTIVE ON/OFF
+Cx NEGATIVE DIFFERENCE=Maximum grid consumption allowed for each device.
 
-Enables or disables the device in the calculation system.
-
-Cx NEGATIVE DIFFERENCE
-
-Maximum grid consumption allowed for each device.
-
-Cx POSITIVE DIFFERENCE
-
-Threshold value above which the device will start.
+Cx POSITIVE DIFFERENCE=Threshold value above which the device will start.
 
 Initial Installation
 
@@ -57,18 +46,13 @@ https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_st
 <img width="674" height="541" alt="flash_esp32" src="https://github.com/user-attachments/assets/458f250c-1548-4406-964c-f5f4e9f2a034" />
 You will find .bin files for 3 ESP32 models.
 
-ESP32 Reset Pins
-ESP32-C
+ESP32 Reset Pins 
 
-RESET between GPIO 03 and GND
+ESP32-C ----RESET between GPIO 03 and GND
 
-ESP32 DEV
+ESP32 DEV ---- RESET between GPIO 14 and GND
 
-RESET between GPIO 14 and GND
-
-ESP32 LOLIN D32
-
-RESET between GPIO 14 and GND
+ESP32 LOLIN D32------RESET between GPIO 14 and GND
 
 RESET = button for reset / restart / reconfiguration.
 
@@ -85,7 +69,9 @@ Create an automation file in Home Assistant:
 Add the following sensors:
 
 sensor.batteries_state_of_capacity     # battery sensor HUAWEI SUN2000
+
 sensor.power_meter_active_power        # import/export sensor HUAWEI SUN2000
+
 Device Automations
 
 You also have 4 automations for device control (AC, boiler, radiator, etc.).
@@ -134,12 +120,7 @@ or
 
 Scan QR Code 1 and then QR Code 2 using your phone camera.
 
-Then configure:
-
-WiFi
-MQTT
-Device name
-Home Assistant address
+Then configure:  WiFi,MQTT,Device name,Home Assistant address.
 ![original](https://github.com/user-attachments/assets/00b17f89-6d7c-47e4-bd19-9b8b13903e2f)
 
 
@@ -149,24 +130,24 @@ Home Assistant address
 
 If you change the device name from:
 
-POWERcalc
-
-to something like:
-
-NUMExyzzzz
+"POWERcalc"to something like "NUMExyzzzz"
 
 you must change the sensor names in all 5 automations.
 
 Example:
 
 sensor.powercalc_ac1 → sensor.numexyzzzz_ac1
+
 sensor.powercalc_ac2 → sensor.numexyzzzz_ac2
+
 sensor.powercalc_ac3 → sensor.numexyzzzz_ac3
+
 sensor.powercalc_ac4 → sensor.numexyzzzz_ac4
 
 switch.powercalc_rece_cald → switch.numexyzzzz_rece_cald
 
 sensor.powercalc_online → sensor.numexyzzzz_online
+
 <img width="445" height="457" alt="1" src="https://github.com/user-attachments/assets/2e08e96e-c2fe-4f3e-8bbb-f317c0da70a5" />
 
 License
