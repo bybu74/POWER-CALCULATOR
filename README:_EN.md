@@ -9,31 +9,12 @@ System Parameters
 
 Cx = Consumer 1, Consumer 2, Consumer 3, Consumer 4
 
-EXPORT / BATTERY
+EXPORT / BATTERY =The calculation is performed based on either energy exported to the grid battery charging capacity
 
-The calculation is performed based on either:
+DEVICE START TIME = The time period during which the export value exceeds  Cx MAX DEVICE CONSUMPTION + Cx POSITIVE DIFFERENCE this condition triggers the start of consumer Cx.
 
-energy exported to the grid
-battery charging capacity
-DEVICE START TIME
-
-The time period during which the export value exceeds:
-
-Cx MAX DEVICE CONSUMPTION + Cx POSITIVE DIFFERENCE
-
-This condition triggers the start of consumer Cx.
-
-DEVICE STOP TIME
-
-The time period during which the export value is below the value:
-
-Cx NEGATIVE DIFFERENCE
-
-This condition stops consumer Cx.
-
-COOL / HEAT
-
-General configuration for air conditioning mode:
+DEVICE STOP TIME The time period during which the export value is below the value Cx NEGATIVE DIFFERENCE This condition stops consumer Cx.
+COOL / HEAT =General configuration for air conditioning mode:
 
 COOL
 HEAT
