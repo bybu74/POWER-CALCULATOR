@@ -7,7 +7,8 @@ Cx = consumatorul 1,consumatorul 2,consumatorul 3,consumatorul 4
 
 EXPORT/BATERIE  = calculul se face in functie de export in retea sau de capacitatea de incarcare a bateriei.
 
-TIMP START APARATE = perioada de timp in care exportul depaseste valoarea  Cx CONSUM MAXIM APARAT + Cx DIFERENTA POZITIVA pentru a porni consumatorul Cx
+TIMP START APARATE = perioada de timp in care exportul depaseste valoarea  
+Cx CONSUM MAXIM APARAT + Cx DIFERENTA POZITIVA pentru a porni consumatorul Cx
 
 TIMP STOP APARATE  = perioada de timp in care exportul este sub  valoarea  Cx DIFERENTA POZITIVA pentru a opri consumatorul Cx
 
