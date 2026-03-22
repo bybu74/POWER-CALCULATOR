@@ -69,7 +69,7 @@ sau scanati cu camera  QRcode  1 apoi 2 si configurati WIFI, MQTT, NUME,ADRESA H
 
 
 <img width="213" height="423" alt="seting" src="https://github.com/user-attachments/assets/f262520f-a0a5-4178-8140-eaefb264d0bf" />
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ATENTIE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ⚠ ATENTIE ⚠!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 DACA SCHIMBATI NUMELE DISPOZITIVULUI DIN  POWERcalc  in NUMExyzzzz  SCHIMBATI IN TOATE CELE 5 AUTOMATIZARI DENUMIREA SENZORILOR   
 
