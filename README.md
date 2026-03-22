@@ -18,6 +18,7 @@ ESP32 LOLIN D32  RESET intre GPIO 14 si GND
 
 RESET= buton pentru reset/restart/reconfigurare
 update se face prin lan (http://xxx.xxx.xxx.xxx).
+
 Creati o automatizare in HA "5_MQTT.yaml" in care introduceti senzori
 
 sensor.batteries_state_of_capacity #   senzor baterie        HUAWEY SUN 2000 
