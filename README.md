@@ -3,6 +3,29 @@ Tot sistemul este folosit pentru maximalizarea autocosumului din panourile solar
 
 <img width="797" height="848" alt="Screenshot 2026-03-21 215044" src="https://github.com/user-attachments/assets/987ab3fa-056a-41d8-9fdd-51dc5c0f460c" />
 
+Cx = consumatorul 1,consumatorul 2,consumatorul 3,consumatorul 4
+
+EXPORT/BATERIE  = calculul se face in functie de export in retea sau de capacitatea de incarcare a bateriei.
+
+TIMP START APARATE = perioada de timp in care exportul depaseste valoarea  Cx CONSUM MAXIM APARAT + Cx DIFERENTA POZITIVA pentru a porni consumatorul Cx
+
+TIMP STOP APARATE  = perioada de timp in care exportul este sub  valoarea  Cx DIFERENTA POZITIVA pentru a opri consumatorul Cx
+
+RECE/CALD = setare generala pentru climatizare RECE SAU CALD
+
+ORDINE APARATE = ordinea de pornire aparate  Ex:   C1 > C2 > C3 > C4  sau  C1 > C4 > C3 > C2   sau  C4 > C3 > C2 > C1  sau  C2 > C3 > C1 > C4 ........ toate cele 24 combinatii
+
+Cx CONSUM MAXIM APARAT = consumul maxim al aparatului 
+
+Cx ACTIV ON/OFF =  activarea  aparatului in sistemul de calcul
+
+Cx DIFERENTA NEGATIVA = consumul maxim din retea pentru fiecare aparat
+
+Cx DIFERENTA POZITIVA = valoare peste care porneste aparatul 
+
+
+
+
 Pentru prima instalare folositi utilitarul flash_download_tool ,pe care il descarcati de aici: https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html
 <img width="674" height="541" alt="flash_esp32" src="https://github.com/user-attachments/assets/458f250c-1548-4406-964c-f5f4e9f2a034" />
 
