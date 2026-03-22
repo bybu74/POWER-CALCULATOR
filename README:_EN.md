@@ -93,6 +93,7 @@ RESET = button for reset / restart / reconfiguration.
 Firmware updates are performed via LAN:
 
 http://xxx.xxx.xxx.xxx
+<img width="453" height="530" alt="update_http" src="https://github.com/user-attachments/assets/e6a40e67-ee82-417f-a572-4ceb4900738a" />
 Home Assistant Configuration
 
 Create an automation file in Home Assistant:
@@ -157,7 +158,12 @@ WiFi
 MQTT
 Device name
 Home Assistant address
-IMPORTANT SETTINGS ⚠
+![original](https://github.com/user-attachments/assets/00b17f89-6d7c-47e4-bd19-9b8b13903e2f)
+
+
+<img width="213" height="423" alt="seting" src="https://github.com/user-attachments/assets/f262520f-a0a5-4178-8140-eaefb264d0bf" />
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!IMPORTANT SETTINGS ⚠!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 If you change the device name from:
 
@@ -179,6 +185,8 @@ sensor.powercalc_ac4 → sensor.numexyzzzz_ac4
 switch.powercalc_rece_cald → switch.numexyzzzz_rece_cald
 
 sensor.powercalc_online → sensor.numexyzzzz_online
+<img width="445" height="457" alt="1" src="https://github.com/user-attachments/assets/2e08e96e-c2fe-4f3e-8bbb-f317c0da70a5" />
+
 License
 
 This project is intended for personal use only, not for commercial purposes.
@@ -187,5 +195,5 @@ Support the Project
 
 If this project is useful to you, consider supporting it:
 
-Buy Me a Coffee ☕
+[BUY ME A COFFEE](https://buymeacoffee.com/bybu74)
 
