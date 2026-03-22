@@ -36,7 +36,10 @@ dupa softarea  ESP configuratil .Va conectati la BYterm apoi in browser http://1
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ATENTIE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 DACA SCHIMBATI NUMELE DISPOZITIVULUI DIN  POWERcalc  in NUMExyzzzz  schimbati in toate cele 5 automatizari  
 
-sensor.powercalc_ac1 in sensor.numexyzzzz_ac1    sensor.powercalc_ac2 in sensor.numexyzzzz_ac2  sensor.powercalc_ac3 in sensor.numexyzzzz_ac3  sensor.powercalc_ac4 in sensor.numexyzzzz_ac4
+sensor.powercalc_ac1 in sensor.numexyzzzz_ac1 
+sensor.powercalc_ac2 in sensor.numexyzzzz_ac2
+sensor.powercalc_ac3 in sensor.numexyzzzz_ac3
+sensor.powercalc_ac4 in sensor.numexyzzzz_ac4
 
 switch.powercalc_rece_cald in switch.numexyzzzz_rece_cald
 
