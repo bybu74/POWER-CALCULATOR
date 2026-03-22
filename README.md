@@ -46,10 +46,8 @@ sau scanati cu camera  QRcode  1 apoi 2 si configurati WIFI, MQTT, NUME,ADRESA H
 
 <img width="213" height="423" alt="seting" src="https://github.com/user-attachments/assets/f262520f-a0a5-4178-8140-eaefb264d0bf" />
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ATENTIE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-![alert](https://github.com/user-attachments/assets/ccb122d5-7e1f-48ba-a694-dd9d0bad4232)
 
-
-DACA SCHIMBATI NUMELE DISPOZITIVULUI DIN  POWERcalc  in NUMExyzzzz  schimbati in toate cele 5 automatizari  
+DACA SCHIMBATI NUMELE DISPOZITIVULUI DIN  POWERcalc  in NUMExyzzzz  SCHIMBATI IN TOATE CELE 5 AUTOMATIZARI DENUMIREA SENZORILOR   
 
 sensor.powercalc_ac1 in sensor.numexyzzzz_ac1 
 
