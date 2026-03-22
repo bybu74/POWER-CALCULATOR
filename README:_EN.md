@@ -76,37 +76,12 @@ Device Automations
 
 You also have 4 automations for device control (AC, boiler, radiator, etc.).
 
-1AC_control.yaml
+1AC_control.yaml  Replace:   climate.ac_NUMARU_unu  with your device #1
 
-Replace:
+2AC_control.yaml Replace:    climate.ac_NUMARU_doi  with your device #2
 
-climate.ac_NUMARU_unu
-
-with your device #1
-
-2AC_control.yaml
-
-Replace:
-
-climate.ac_NUMARU_doi
-
-with your device #2
-
-3AC_control.yaml
-
-Replace:
-
-climate.ac_NUMARU_trei
-
-with your device #3
-
-4AC_control.yaml
-
-Replace:
-
-climate.ac_NUMARU_patru
-
-with your device #4
+3AC_control.yaml Replace:    climate.ac_NUMARU_trei with your device #3 
+4AC_control.yaml  Replace:   climate.ac_NUMARU_patru with your device #4
 
 After flashing the ESP32, restart the board and configure the system.
 
