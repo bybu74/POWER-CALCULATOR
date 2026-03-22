@@ -32,7 +32,7 @@ Pentru prima instalare folositi utilitarul flash_download_tool ,pe care il desca
 
 
 
-Aveti ,bin pentru 3 modele de ESP 32 
+Aveti .bin pentru 3 modele de ESP 32 
 
 ESP32C   RESET intre GPIO 03 si GND  
 
