@@ -36,7 +36,9 @@ aveti si cele 4 automatizari pentru  comfigurarea dispozitivelor (AC,BOILER,RADI
 
 4AC_control.yaml  in care modificati dispozitivul  climate.ac_NUMARU_patru  cu dispozitivul vostru nr 4
 
-dupa softarea  ESP configuratil  va conectati la  BYterm apoi in browser http://192.168.4.1 
+dupa softarea placutei ESP 32  restart si configurare. 
+
+Va conectati la  BYterm apoi in browser http://192.168.4.1 
 
 sau scanati cu camera  QRcode  1 apoi 2 si configurati WIFI, MQTT, NUME,ADRESA HA.
 ![original](https://github.com/user-attachments/assets/00b17f89-6d7c-47e4-bd19-9b8b13903e2f)
