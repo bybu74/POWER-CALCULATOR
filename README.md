@@ -8,14 +8,15 @@ Pentru prima instalare folositi utilitarul flash_download_tool pe care il descar
 
 
 
-aveti ,bin pentru 3 modele de ESP 32
+aveti ,bin pentru 3 modele de ESP 32 
 
-ESP32C   reset intre GPIO 03 si GND 
+ESP32C   RESET intre GPIO 03 si GND  
 
-ESP32 DEV  reset intre GPIO 14 si GND
+ESP32 DEV  RESET intre GPIO 14 si GND
 
-ESP32 LOLIN D32  reset intre GPIO 14 si GND 
+ESP32 LOLIN D32  RESET intre GPIO 14 si GND 
 
+RESET= buton pentru reset/restart/reconfigurare
 update se face prin lan (http://xxx.xxx.xxx.xxx).
 Creati o automatizare in HA "5_MQTT.yaml" in care introduceti senzori
 
