@@ -10,7 +10,7 @@ EXPORT/BATERIE  = calculul se face in functie de export in retea sau de capacita
 TIMP START APARATE = perioada de timp in care exportul depaseste valoarea  
 Cx CONSUM MAXIM APARAT + Cx DIFERENTA POZITIVA pentru a porni consumatorul Cx
 
-TIMP STOP APARATE  = perioada de timp in care exportul este sub  valoarea  Cx DIFERENTA POZITIVA pentru a opri consumatorul Cx
+TIMP STOP APARATE  = perioada de timp in care exportul este sub  valoarea  Cx DIFERENTA NEGATIVA pentru a opri consumatorul Cx
 
 RECE/CALD = setare generala pentru climatizare RECE SAU CALD
 
