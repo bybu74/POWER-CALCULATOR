@@ -62,11 +62,7 @@ Firmware updates are performed via LAN:  http://xxx.xxx.xxx.xxx
 
 Home Assistant Configuration
 
-Create an automation file in Home Assistant:
-
-5_MQTT.yaml
-
-Add the following sensors:
+Create an automation file in Home Assistant:    5_MQTT.yaml   Add the following sensors:
 
 sensor.batteries_state_of_capacity     # battery sensor HUAWEI SUN2000
 
