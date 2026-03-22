@@ -18,6 +18,7 @@ ESP32 LOLIN D32  RESET intre GPIO 14 si GND
 
 RESET= buton pentru reset/restart/reconfigurare
 update se face prin lan (http://xxx.xxx.xxx.xxx).
+<img width="453" height="530" alt="update_http" src="https://github.com/user-attachments/assets/e6a40e67-ee82-417f-a572-4ceb4900738a" />
 
 Creati o automatizare in HA "5_MQTT.yaml" in care introduceti senzori
 
