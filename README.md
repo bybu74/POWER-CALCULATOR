@@ -26,9 +26,12 @@ sensor.batteries_state_of_capacity #   senzor baterie        HUAWEY SUN 2000
 sensor.power_meter_active_power    #   senzor import/export  HUAWEY SUN 2000 
 
 aveti si cele 4 automatizari pentru  comfigurarea dispozitivelor (AC,BOILER,RADIATOR,...)
-1AC_control.yaml   2AC_control.yaml  3AC_control.yaml  4AC_control.yaml  in care modificati dispozitivele (climate.ac_NUMARU_unu,  climate.ac_NUMARU_doi, climate.ac_NUMARU_trei,  climate.ac_NUMARU_patru, )
+1AC_control.yaml  in care modificati dispozitivul  climate.ac_NUMARU_unu cu dispozitivul vostru nr1
+2AC_control.yaml  in care modificati dispozitivul  climate.ac_NUMARU_doi  cu dispozitivul vostru nr 2
+3AC_control.yaml  in care modificati dispozitivul   climate.ac_NUMARU_trei  cu dispozitivul vostru nr 3
+4AC_control.yaml  in care modificati dispozitivul  climate.ac_NUMARU_patru  cu dispozitivul vostru nr 4
 
-dupa softarea  ESP configuratil .Va conectati la BYterm apoi in browser http://192.168.4.1 sau scanati cu camera  QRcode  1 apoi 2 si configurati WIFI, MQTT, NUME,ADRESA HA.
+dupa softarea  ESP configuratil  va conectati la  BYterm apoi in browser http://192.168.4.1 sau scanati cu camera  QRcode  1 apoi 2 si configurati WIFI, MQTT, NUME,ADRESA HA.
 ![original](https://github.com/user-attachments/assets/00b17f89-6d7c-47e4-bd19-9b8b13903e2f)
 
 
