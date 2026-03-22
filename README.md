@@ -91,5 +91,5 @@ sensor.powercalc_online   in  sensor.numexyzzzz_online
 
 
 
-DACA ESTE DE FOLOS SUSTINE PROIECTUL
-[https://www.buymeacoffee.com/invite/bybu74](https://buymeacoffee.com/bybu74)
+DACA ESTE DE FOLOS,SUSTINE PROIECTUL:
+[BUY ME A COFFEE](https://buymeacoffee.com/bybu74)
