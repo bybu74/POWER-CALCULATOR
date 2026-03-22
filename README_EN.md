@@ -56,10 +56,10 @@ ESP32 LOLIN D32------RESET between GPIO 14 and GND
 
 RESET = button for reset / restart / reconfiguration.
 
-Firmware updates are performed via LAN:
+Firmware updates are performed via LAN:  http://xxx.xxx.xxx.xxx
 
-http://xxx.xxx.xxx.xxx
 <img width="453" height="530" alt="update_http" src="https://github.com/user-attachments/assets/e6a40e67-ee82-417f-a572-4ceb4900738a" />
+
 Home Assistant Configuration
 
 Create an automation file in Home Assistant:
