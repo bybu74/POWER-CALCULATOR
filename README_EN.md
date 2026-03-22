@@ -1,4 +1,4 @@
-POWER-CALCULATOR is software that calculates energy availability based on exported electrical power or battery charge percentage.
+POWER-CALCULATOR is a software that calculates energy availability based on exported electrical power or battery charge percentage.
 The software is installed on an ESP32 and runs together with Home Assistant using the MQTT protocol.
 
 The entire system is designed to maximize the self-consumption of energy produced by your solar panels.
