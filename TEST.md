@@ -1,9 +1,10 @@
+<img width="400" height="267" alt="ro" src="https://github.com/user-attachments/assets/39239a0f-c3c4-4fb7-b394-71c1d52c9068" />
 
 [ROMANA](https://github.com/bybu74/POWER-CALCULATOR/blob/main/README.md)
-<img width="797" height="848" alt="pc" src="https://github.com/user-attachments/assets/6c0ba497-b0d4-4497-96cc-87e46b741c8a" />
+
+<img width="508" height="325" alt="en" src="https://github.com/user-attachments/assets/02498563-1a2d-4cd6-85fb-fc0230adb0b6" />
 
 [EMGLISH](https://github.com/bybu74/POWER-CALCULATOR/blob/main/README_EN.md)
-<img width="792" height="847" alt="PC_ENG" src="https://github.com/user-attachments/assets/725a07a8-55df-45a2-b6f0-6bf490b18cb0" />
 
 
 [BUY ME A COFFEE](https://buymeacoffee.com/bybu74)
